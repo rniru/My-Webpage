@@ -1,0 +1,114 @@
+body {
+    background: linear-gradient(to bottom, #c1c1c1, #6e8b6e, #587460);
+    font-family: "Arial", sans-serif;
+}
+.headerTitle {
+    font-family: "Georgia", serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 3px 3px 0 #000000;
+    text-align: center;
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+.boxContainer {
+    background-color: rgba(89, 112, 91, 0.9);
+    border: 2px solid #f4f4f4;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    width: 90%;
+    height: 13%;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+}
+.line {
+    width: 95%;
+    height: 5px;
+    background-color: #4d4837;
+    border: none;
+    margin: 20px auto;
+    margin-top: -30px;
+}
+.Paragraphs {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 21px;
+    color: #f1f1f1;
+    margin: 20px auto;
+    text-align: justify;
+    margin: 10px 30px 0px 30px;
+    line-height: 1.6;
+    text-shadow: 2px 2px 2.47px #000000;
+}
+.heading3 {
+    color: #e3e8e5;
+    font-size: 36px;
+    margin: 20px 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 0 #1b3a28, 4px 4px 0 #14291e;
+}
+.paragraphContainer {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 30px auto;
+    width: 90%;
+    backdrop-filter: blur(12px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.sectionButtons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 30px 0;
+}
+.sectionButton {
+    display: inline-block;
+    width: 160px;
+    text-align: center;
+    font-size: 18px;
+    padding: 12px 24px;
+    background: #4a5a3e;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: "Trebuchet MS", sans-serif;
+    transition: background 0.3s ease-in-out;
+}
+.sectionButton:hover {
+    background:  #354a2b;
+}
+.buttomButtons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 40px 0;
+}
+
+.buttomButton {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    width: 150px;
+    padding: 12px;
+    background-color: #536232;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid #3d4826;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.buttomButton:hover {
+    background-color: #283624;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4);
+    transform: translateY(-2px);
+}
+
